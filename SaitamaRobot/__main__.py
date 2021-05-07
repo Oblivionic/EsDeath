@@ -52,8 +52,8 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-*Eureka! {}, myself {}!* 
-*An Anime themed group management bot from* [Steins;Gate](https://anilist.co/anime/9253)!!
+*General in command!, myself {}!* 
+*An Anime themed group management bot from* [Akame ga Kill](https://anilist.co/anime/20613)!!
 
 • *Uptime:* `{}`
 • `{}` *users, across* `{}` *chats.*
@@ -64,13 +64,13 @@ HELP_STRINGS = """
 *AI Chatbot*, *Anime*, *Music*, *Notes*, *Filters*, *NSFW* *and more!*
 
 🎛 *All commands can either be used with* `/` *or* `!`.
-🎛 *Reach out for support:* @KurisuSupport [.](https://telegra.ph/file/2291942331f135e3292ee.png)
+🎛 *Reach out for support:* @KurisuSupport 
 """.format(
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-KURISU_IMG = "https://telegra.ph/file/6152bf2f73ca8ea30772a.png"
-KURISUIMGSTART = "https://telegra.ph/file/bd01a439fefb53170b36f.gif"
+KURISU_IMG = "https://telegra.ph/file/9a75aa001586ef41ff5b9.png"
+KURISUIMGSTART = "https://telegra.ph/file/41fe8e7f0aee49cbb1261.gif"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 You can donate to the original writer of the Base code, Paul
@@ -221,11 +221,8 @@ def start(update: Update, context: CallbackContext):
                     ]]))
     else:
         update.effective_message.reply_video(
-                KURISUIMGSTART)
-        update.effective_message.reply_text(
-            "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>"
-            .format(uptime),
-            parse_mode=ParseMode.HTML)
+                KURISUIMGSTART, caption="Esdeath is alive!\n<b>Haven't slept since:</b> <code>{}</code>".format(uptime), parse_mode=ParseMode.HTML)
+        
 
 
 # for test purposes

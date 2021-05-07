@@ -214,10 +214,10 @@ def start(update: Update, context: CallbackContext):
                      [
                         InlineKeyboardButton(
                              text="📍 Anime Chat",
-                             url="https://t.me/ias_chats"),                    
+                             url="https://t.me/Kagesama_chat"),                    
                         InlineKeyboardButton(
                              text="Help & Commands",
-                             url="https://t.me/Kurisu_Makise_Robot?start=help"),      
+                             url="https://t.me/Generalesdeath_bot?start=help"),      
                     ]]))
     else:
         update.effective_message.reply_video(

@@ -195,7 +195,7 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="➕ Add Kurisu To Your Group",
+                            text="💞 Add EsDeath To Your Group",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username))
                     ],
@@ -205,15 +205,15 @@ def start(update: Update, context: CallbackContext):
                              url=f"https://t.me/{SUPPORT_CHAT}"),
                          InlineKeyboardButton(
                              text="🎉 Updates",
-                             url="https://t.me/steinsupdates"),
+                             url="https://t.me/EsDeathupdates"),
                          InlineKeyboardButton(
                              text="🗃 Guide",
-                             url="https://t.me/Steinsupdates/7"),
+                             url="https://t.me/EsDeathupdates/6"),
               
                     ],
                      [
                         InlineKeyboardButton(
-                             text="Anime Chat",
+                             text="📍 Anime Chat",
                              url="https://t.me/ias_chats"),                    
                         InlineKeyboardButton(
                              text="Help & Commands",

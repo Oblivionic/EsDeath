@@ -7,14 +7,14 @@ A modular Telegram Python bot running on python3 with a sqlalchemy database and 
 
 Can be found on telegram as [Kurisu_Makise_robot](https://t.me/Kurisu_Makise_robot).
 
-The Support group can be reached out to at [Kurisu Support](https://t.me/Kurisu_Makise_support), where you can ask for help about [kurisu_makise_robot](https://t.me/Kurisu_Makise_robot), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
+The Support group can be reached out to at [EsDeath Support](https://t.me/esdeathsupport), where you can ask for help about [kurisu_makise_robot](https://t.me/Kurisu_Makise_robot), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
 
 News channel as at [EsDeath Updates](https://t.me/EsDeathupdates) 
 
 ## How to setup/deploy.
 
 ### Read these notes carefully before proceeding 
- - Edit any mentions of @Kurisu_Makise_support to your own support chat
+ - Edit any mentions of @GeneralEsDeath_bot to your own support chat
  - Your code must be open source and a link to your fork's repository must be there in the start reply of the bot [See this](https://github.com/AnimeKaizoku/SaitamaRobot/blob/shiken/SaitamaRobot/__main__.py#L25)
  - Lastly, if you are found to run this repo without the code being open sourced or the repository link not mentioned in the bot, we will push a gban for you in our network because of being in violation of the license, you are free to be a dick and not respect the open source code (we do not mind) but we will not be having you around our chats
  - This repo does not come with technical support, so DO NOT come to us asking help about deploy/console errors

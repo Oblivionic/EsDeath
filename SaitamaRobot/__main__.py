@@ -64,7 +64,7 @@ HELP_STRINGS = """
 *AI Chatbot*, *Anime*, *Music*, *Notes*, *Filters*, *NSFW* *and more!*
 
 🎛 *All commands can either be used with* `/` *or* `!`.
-🎛 *Reach out for support:* @KurisuSupport 
+🎛 *Reach out for support:* @EsDeathSupport 
 """.format(
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
@@ -216,7 +216,7 @@ def start(update: Update, context: CallbackContext):
                              text="📍 Anime Chat",
                              url="https://t.me/Kagesama_chat"),                    
                         InlineKeyboardButton(
-                             text="Help & Commands",
+                             text="❓ Help & Commands ❓",
                              url="https://t.me/Generalesdeath_bot?start=help"),      
                     ]]))
     else:

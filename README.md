@@ -5,9 +5,9 @@
 
 A modular Telegram Python bot running on python3 with a sqlalchemy database and an entirely themed persona to make Saitama suitable for Anime and Manga group chats. 
 
-Can be found on telegram as [Kurisu_Makise_robot](https://t.me/Kurisu_Makise_robot).
+Can be found on telegram as [generalesdeath_bot](https://t.me/generalesdeath_bot).
 
-The Support group can be reached out to at [EsDeath Support](https://t.me/esdeathsupport), where you can ask for help about [kurisu_makise_robot](https://t.me/Kurisu_Makise_robot), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
+The Support group can be reached out to at [EsDeath Support](https://t.me/esdeathsupport), where you can ask for help about [generalesdeath_bot](https://t.me/generalesdeath_bot), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
 
 News channel as at [EsDeath Updates](https://t.me/EsDeathupdates) 
 

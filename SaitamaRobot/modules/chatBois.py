@@ -4,10 +4,6 @@ from SaitamaRobot.utlis.filter_groups import chatbot_group
 from pyrogram import filters
 
 
-__MODULE__ = "ChatBot"
-__HELP__ = """
-/chatbot [ON|OFF] To Enable Or Disable ChatBot In Your Chat."""
-
 active_chats_bot = []
 active_chats_ubot = []
 

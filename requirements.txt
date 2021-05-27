@@ -42,3 +42,4 @@ motor
 pymongo 
 python-arq
 dnspython 
+redis

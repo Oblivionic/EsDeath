@@ -162,6 +162,10 @@
          "description": "Required for wallpaper. Get your's from https://wall.alphacoders.com/",
          "required": false,
          "value": ""
+       "REDIS_URI": {
+         "description": "Redis Url create one from redislabs.com.",
+         "required": true,
+         "value": ""
       }
       
    }

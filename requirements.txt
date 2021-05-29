@@ -43,3 +43,7 @@ pymongo
 python-arq
 dnspython 
 redis
+urllib
+bs4
+glob
+search_engine_parser

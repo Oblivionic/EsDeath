@@ -43,3 +43,4 @@ pymongo
 python-arq
 dnspython 
 redis
+gTTS

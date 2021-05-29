@@ -23,7 +23,7 @@ def tts(update, context):
     filename = datetime.now().strftime("%d%m%y-%H%M%S%f")
     reply = " ".join(args)
     update.message.chat.send_action(ChatAction.RECORD_AUDIO)
-    lang="com"
+    lang="com/?sl=en&tl=hi&op=translate"
     tts = gTTS(reply, lang)
     tts.save("k.mp3")
     with open("k.mp3", "rb") as f:

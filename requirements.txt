@@ -44,3 +44,4 @@ python-arq
 dnspython 
 redis
 gTTS
+telegraph

@@ -271,22 +271,22 @@ def info(update: Update, context: CallbackContext):
     disaster_level_present = False
 
     if user.id == OWNER_ID:
-        text += "\n\nThe Disaster level of this person is 'God'."
+        text += "\n\nThe Disaster level of this person is 'ICE KING'."
         disaster_level_present = True
     elif user.id in DEV_USERS:
         text += "\n\nThis user is member of 'Night Raiders'."
         disaster_level_present = True
     elif user.id in DRAGONS:
-        text += "\n\nThe Disaster level of this person is 'Dragon'."
+        text += "\n\nThe Disaster level of this person is 'Imperial Soldier'."
         disaster_level_present = True
     elif user.id in DEMONS:
-        text += "\n\nThe Disaster level of this person is 'Demon'."
+        text += "\n\nThe Disaster level of this person is 'Royal Army Soldier'."
         disaster_level_present = True
     elif user.id in TIGERS:
-        text += "\n\nThe Disaster level of this person is 'Tiger'."
+        text += "\n\nThe Disaster level of this person is 'Military Soldier'."
         disaster_level_present = True
     elif user.id in WOLVES:
-        text += "\n\nThe Disaster level of this person is 'Wolf'."
+        text += "\n\nThe Disaster level of this person is 'Loyal Servant'."
         disaster_level_present = True
 
     if disaster_level_present:

@@ -463,7 +463,7 @@ def servants(update: Update, context: CallbackContext):
 
 @run_async
 @whitelist_plus
-def soldiers(update: Update, context: CallbackContext):
+def military(update: Update, context: CallbackContext):
     reply = "<b>Known Military Soldiers:</b>\n"
     bot = context.bot
     for each_user in TIGERS:
@@ -531,7 +531,7 @@ Group admins/group owners do not need these commands.
  ╔ *List all special users:*
  ╠ `/imperials`*:* Lists all Imperial Soldiers
  ╠ `/royals`*:* Lists all Royal Soldiers
- ╠ `/soldiers`*:* Lists all Military Soldiers
+ ╠ `/military`*:* Lists all Military Soldiers
  ╠ `/servants`*:* Lists all Loyal Servants
  ╚ `/raiders`*:* Lists all Night Raider members
 
@@ -603,7 +603,7 @@ UNTIGER_HANDLER = CommandHandler(("removemilitary"), removemilitary)
 UNWHITELIST_HANDLER = CommandHandler(("removeloyal"), removeloyal)
 
 WHITELISTLIST_HANDLER = CommandHandler(["servants"], servants)
-TIGERLIST_HANDLER = CommandHandler(["soldiers"], soldiers)
+TIGERLIST_HANDLER = CommandHandler(["military"], military)
 SUPPORTLIST_HANDLER = CommandHandler(["royals"], royals)
 SUDOLIST_HANDLER = CommandHandler(["imperials"], imperials)
 DEVLIST_HANDLER = CommandHandler(["raiders"], raiders)

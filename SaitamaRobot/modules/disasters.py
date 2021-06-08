@@ -142,7 +142,7 @@ def addroyal(
         json.dump(data, outfile, indent=4)
 
     update.effective_message.reply_text(
-        rt + f"\n{user_member.first_name} was added as a Roual Army Soldier!")
+        rt + f"\n{user_member.first_name} was added as a Royal Army Soldier!")
 
     log_message = (
         f"#SUPPORT\n"

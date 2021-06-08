@@ -486,7 +486,7 @@ def fed_info(update: Update, context: CallbackContext):
     chat = update.effective_chat
     info = sql.get_fed_info(fed_id)
 
-    text = "<b>ℹ️ Federation Information:</b>"
+    text = "<b>ℹ️ Federation Information ℹ️:</b>"
     text += "\nFedID: <code>{}</code>".format(fed_id)
     text += "\nName: {}".format(info['fname'])
     text += "\nCreator: {}".format(mention_html(owner.id, owner_name))
@@ -598,19 +598,19 @@ def fed_ban(update: Update, context: CallbackContext):
         return
 
     if user_id == OWNER_ID:
-        message.reply_text("Disaster level God cannot be fed banned!")
+        message.reply_text("THE ICE KING cannot be fed banned!")
         return
 
     if int(user_id) in DRAGONS:
-        message.reply_text("Dragons cannot be fed banned!")
+        message.reply_text(" Imperial Soldiers cannot be fed banned!")
         return
 
     if int(user_id) in TIGERS:
-        message.reply_text("Tigers cannot be fed banned!")
+        message.reply_text("Military Soldiers cannot be fed banned!")
         return
 
     if int(user_id) in WOLVES:
-        message.reply_text("Wolves cannot be fed banned!")
+        message.reply_text("Loyal Servants cannot be fed banned!")
         return
 
     if user_id in [777000, 1087968824]:

@@ -56,7 +56,6 @@ PM_START_TEXT = """
 *An Anime themed group management bot from* [Akame ga Kill](https://anilist.co/anime/20613)!!
 
 • *Uptime:* `{}`
-• `{}` *users, across* `{}` *chats.*
 """
 
 HELP_STRINGS = """

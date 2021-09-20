@@ -58,11 +58,10 @@ def languages(update: Update, context: CallbackContext) -> None:
 __mod_name__ = "Translate"
 
 __help__ = """
-• `/tr` or `/tl` (language code) as reply to a long message
+• `/tr` or `/tl` (language code) as a reply to a message that you want to translate
 *Example:*
-  `/tr en`*:* translates something to english
-  `/tr hi-en`*:* translates hindi to english
-• `/langs`*:* Lists of All the Language Codes
+  `/tr ja`*:* translates something to japanese
+• `/langs`*:* Lists all of the language codes
 """
 
 TRANSLATE_HANDLER = DisableAbleCommandHandler(["tr", "tl"], totranslate)

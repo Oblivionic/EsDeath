@@ -53,7 +53,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *General in command! {}, myself {}!* 
-*An Anime themed group management bot from* [Akame ga Kill](https://anilist.co/anime/20613)!!
+*An Anime themed group management bot based on [Akame ga Kill](https://anilist.co/anime/20613)!!
 
 • *Uptime:* `{}`
 """
@@ -213,7 +213,7 @@ def start(update: Update, context: CallbackContext):
                      [
                         InlineKeyboardButton(
                              text="📍 Anime Chat",
-                             url="https://t.me/Kagesama_chat"),                    
+                             url="https://t.me/KokoroAnimeChat"),                    
                         InlineKeyboardButton(
                              text="❓ Help & Commands ❓",
                              url="https://t.me/Generalesdeath_bot?start=help"),      

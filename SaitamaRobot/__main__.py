@@ -204,7 +204,7 @@ def start(update: Update, context: CallbackContext):
                              url=f"https://t.me/{SUPPORT_CHAT}"),
                          InlineKeyboardButton(
                              text="🎉 Updates",
-                             url="https://t.me/EsDeathupdates"),
+                             url="https://t.me/Steinsupdates"),
                          InlineKeyboardButton(
                              text="🗃 Guide",
                              url="https://t.me/EsDeathupdates/6"),
@@ -213,7 +213,7 @@ def start(update: Update, context: CallbackContext):
                      [
                         InlineKeyboardButton(
                              text="📍 Anime Chat",
-                             url="https://t.me/KokoroAnimeChat"),                    
+                             url="https://t.me/AnimeSoulChat"),                    
                         InlineKeyboardButton(
                              text="❓ Help & Commands ❓",
                              url="https://t.me/Generalesdeath_bot?start=help"),      
